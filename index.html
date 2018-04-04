@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>THE WALKING DEAD CHARACTERS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-firestore.js"></script>
+    <script src="walkingDead.js"></script>
+</head>
+
+<body>
+    <h1>WELCOME TO THE WALKING DEAD CHARACTERS</h1>
+
+    <h2>The Walking Dead Characters: </h2>
+
+    <div>
+        <ul id="characList">
+        </ul>
+    </div>
+
+    <div>
+        <h3>Add a name on the bullshit list :</h3>
+        <input type="text" name='name' id="Name">
+        <br>
+        <button type="button" onclick="PushOnFirebase()">Add Character</button>
+    </div>
+
+</body>
+
+</html>
