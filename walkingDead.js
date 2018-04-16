@@ -8,8 +8,8 @@ const config = {
     messagingSenderId: '225421980590'
 };
 firebase.initializeApp(config);
-var db = firebase.database();
-var character = db.ref('Characters');
+const db = firebase.database();
+const character = db.ref('Characters');
 
 let myId ='';
 
